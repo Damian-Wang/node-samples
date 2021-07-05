@@ -4,11 +4,13 @@
   "description": "A simple Node.js command-line application that makes requests to the Google Calendar API.",
   "private": true,
   "dependencies": {
-    "googleapis": "^39.0.0"
+    "@notionhq/client": "^0.2.1",
+    "dotenv": "^10.0.0",
+    "googleapis": "^80.1.0"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=12.0"
   },
   "scripts": {
     "start": "node ."

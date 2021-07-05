@@ -25,5 +25,8 @@
   "eslintIgnore": [
     "getFoldersUnderRoot.js",
     "**/node_modules/**"
-  ]
+  ],
+  "dependencies": {
+    "googleapis": "^80.1.0"
+  }
 }
